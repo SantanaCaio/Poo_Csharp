@@ -5,12 +5,14 @@ namespace CSHARP_POO
 
         public string nome;
         public int idade;
+        public int soco;
+        public int chute;
         public string armadura;
         public string iA;
 
         private int vida = 100;
 
-        public void Defender(int ataque)
+        public void Receber(int ataque)
         {
             this.vida = this.vida - ataque;
         }
