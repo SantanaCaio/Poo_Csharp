@@ -6,101 +6,76 @@ namespace CSHARP_POO
     {
         static void Main(string[] args)
         {
-            Personagem perso1 = new Personagem();
-
+          Personagem perso1 = new Personagem();
             perso1.nome = "Batman";
             perso1.idade = 46;
-            perso1.armadura = "Bat roupa seda";
-            perso1.ia = "Alfred";
-
+            perso1.armadura = "Bat Roupa seda";
+            perso1.iA = "Alfred";
 
             Personagem perso2 = new Personagem();
-
             perso2.nome = "Wonder Woman";
             perso2.idade = 100;
-            perso2.armadura = "Master Titanium";
-            perso2.ia = "Amazon Prime";
+            perso2.armadura = "Master Tinium";
+            perso2.iA = "Amazon Prime";
 
-            // Console.WriteLine($"{perso1.nome} Vs {perso2.nome}");
 
-            // perso2.Defender(30);
-
-            // Console.WriteLine($"Personagem {perso2.nome} recebeu um ataque sua vida restou = {perso2.ExibirVida()}");
-
-            // perso2.Defender(30);
-
-            // Console.WriteLine($"Personagem {perso2.nome} recebeu um ataque sua vida restou = {perso2.ExibirVida()}");
+            Console.WriteLine($"{perso1.nome} Vs {perso2.nome}");
 
             string opcao, ataque, defesa;
-
             do
             {
-                Console.WriteLine($"{perso1.nome} Vs {perso2.nome}");
-                Console.WriteLine($"Selecione o Personagem");
-                Console.WriteLine($" [1] - {perso1.nome}");
-                Console.WriteLine($" [2] - {perso2.nome}");
-                Console.WriteLine($" [0] - Desistir");
-                opcao = Console.ReadLine();
 
-                switch (opcao)
+            Console.WriteLine("Selecione qual personagem você quer jogar:");
+            Console.WriteLine($"1 - {perso1.nome} vida = {perso1.ExibirVida()}");
+            Console.WriteLine($"2 - {perso2.nome} vida = {perso2.ExibirVida()}");
+            Console.WriteLine($"0 - Desistir");
+            opcao = Console.ReadLine();
+                switch(opcao)
                 {
                     case "1":
-                        //Atacar personagem 2
+                    //Atacar personagem 2
                         Console.WriteLine("Selecione o ataque");
-                        Console.WriteLine(" [1] - Soco Alto");
-                        Console.WriteLine(" [2] - Chute Baixo");
+                        Console.WriteLine("1 - Soco Alto");
+                        Console.WriteLine("2 - Chute Baixo");
                         ataque = Console.ReadLine();
                         Console.Clear();
-                        Console.WriteLine($"Personagem {perso2.nome} Qual sera sua defesa");
-                        Console.WriteLine(" [1] - Defesa Alta");
-                        Console.WriteLine(" [2] - Defesa Baixa");
+                        Console.WriteLine($"Personagem {perso2.nome} qual será sua defesa?");
+                        Console.WriteLine($"1 - Defesa de soco");
+                        Console.WriteLine($"2 - Defesa de chute");
                         defesa = Console.ReadLine();
-
-                        if (ataque == defesa)
-                        {
-                            Console.WriteLine($"O {perso2.nome} defendeu");
-                        }
-                        else
-                        {
+                        if(ataque == defesa){
                             Console.WriteLine($"O {perso2.nome} defendeu!");
+                        }else{
+                            Console.WriteLine($"O {perso2.nome} recebeu um dano de 25");
                             perso2.Defender(25);
-                            Console.WriteLine($"Vida Restante = {perso2.ExibirVida()}");
+                            Console.WriteLine($"Vida restante = {perso2.ExibirVida()}");
                         }
-
-                        break;
+                    break;
                     case "2":
-                        //Atacar personagem 2
-                        Console.WriteLine("Selecione o ataque");
-                        Console.WriteLine(" [1] - Soco Alto");
-                        Console.WriteLine(" [2] - Chute Baixo");
+                    //Atacar personagem 1
+                     Console.WriteLine("Selecione o ataque");
+                        Console.WriteLine("1 - Soco Alto");
+                        Console.WriteLine("2 - Chute Baixo");
                         ataque = Console.ReadLine();
                         Console.Clear();
-                        Console.WriteLine($"Personagem {perso1.nome} Qual sera sua defesa");
-                        Console.WriteLine(" [1] - Defesa Alta");
-                        Console.WriteLine(" [2] - Defesa Baixa");
+                        Console.WriteLine($"Personagem {perso1.nome} qual será sua defesa?");
+                        Console.WriteLine($"1 - Defesa de soco");
+                        Console.WriteLine($"2 - Defesa de chute");
                         defesa = Console.ReadLine();
-
-                        if (ataque == defesa)
-                        {
+                        if(ataque == defesa){
                             Console.WriteLine($"O {perso1.nome} defendeu!");
-                        }
-                        else
-                        {
-                            Console.WriteLine($"O {perso2.nome}Recebeu um dano de 25");
+                        }else{
+                            Console.WriteLine($"O {perso1.nome} recebeu um dano de 25");
                             perso1.Defender(25);
-                            Console.WriteLine($"Vida Restante = {perso1.ExibirVida()}");
+                            Console.WriteLine($"Vida restante = {perso1.ExibirVida()}");
                         }
-
-                        break;
+                    break;
                     default:
-                        Console.WriteLine($"Opção invalida");
-                        break;
-                }
+                    Console.WriteLine("Opção inválida");
+                    break;
+                }//fim while
+            }while(opcao != "0");
 
-            } while (opcao != "0");
-
-
-
-        }
+        }//fim Main
     }
 }

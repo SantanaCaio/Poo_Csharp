@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dev\\Documents\\C# - POO\\CSHARP_POO\\CSHARP_POO.csproj",
+      "projectUniqueName": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\01 - csharp_poo\\CSHARP_POO.csproj",
       "projectName": "CSHARP_POO",
-      "projectPath": "C:\\Users\\dev\\Documents\\C# - POO\\CSHARP_POO\\CSHARP_POO.csproj",
+      "projectPath": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\01 - csharp_poo\\CSHARP_POO.csproj",
       "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dev\\Documents\\C# - POO\\CSHARP_POO\\obj\\",
+      "outputPath": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\01 - csharp_poo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"

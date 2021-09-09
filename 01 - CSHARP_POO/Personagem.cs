@@ -2,21 +2,23 @@ namespace CSHARP_POO
 {
     public class Personagem
     {
+
         public string nome;
-
         public int idade;
-
         public string armadura;
-
-        public string ia;
+        public string iA;
 
         private int vida = 100;
 
-        public void Defender(int ataque){
+        public void Defender(int ataque)
+        {
             this.vida = this.vida - ataque;
         }
-        public int ExibirVida(){
+        public int ExibirVida()
+        {
             return vida;
         }
+
+
     }
 }
