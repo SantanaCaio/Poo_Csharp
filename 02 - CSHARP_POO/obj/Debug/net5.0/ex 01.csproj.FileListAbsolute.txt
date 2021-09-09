@@ -1,0 +1,16 @@
+C:\Users\dev\Documents\caio\c# - poo\ex 01\bin\Debug\net5.0\ex 01.exe
+C:\Users\dev\Documents\caio\c# - poo\ex 01\bin\Debug\net5.0\ex 01.deps.json
+C:\Users\dev\Documents\caio\c# - poo\ex 01\bin\Debug\net5.0\ex 01.runtimeconfig.json
+C:\Users\dev\Documents\caio\c# - poo\ex 01\bin\Debug\net5.0\ex 01.runtimeconfig.dev.json
+C:\Users\dev\Documents\caio\c# - poo\ex 01\bin\Debug\net5.0\ex 01.dll
+C:\Users\dev\Documents\caio\c# - poo\ex 01\bin\Debug\net5.0\ref\ex 01.dll
+C:\Users\dev\Documents\caio\c# - poo\ex 01\bin\Debug\net5.0\ex 01.pdb
+C:\Users\dev\Documents\caio\c# - poo\ex 01\obj\Debug\net5.0\ex 01.csproj.AssemblyReference.cache
+C:\Users\dev\Documents\caio\c# - poo\ex 01\obj\Debug\net5.0\ex 01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Documents\caio\c# - poo\ex 01\obj\Debug\net5.0\ex 01.AssemblyInfoInputs.cache
+C:\Users\dev\Documents\caio\c# - poo\ex 01\obj\Debug\net5.0\ex 01.AssemblyInfo.cs
+C:\Users\dev\Documents\caio\c# - poo\ex 01\obj\Debug\net5.0\ex 01.csproj.CoreCompileInputs.cache
+C:\Users\dev\Documents\caio\c# - poo\ex 01\obj\Debug\net5.0\ex 01.dll
+C:\Users\dev\Documents\caio\c# - poo\ex 01\obj\Debug\net5.0\ref\ex 01.dll
+C:\Users\dev\Documents\caio\c# - poo\ex 01\obj\Debug\net5.0\ex 01.pdb
+C:\Users\dev\Documents\caio\c# - poo\ex 01\obj\Debug\net5.0\ex 01.genruntimeconfig.cache

@@ -27,18 +27,40 @@ namespace CSHARP_POO
 
             Console.WriteLine($"{perso1.nome} Vs {perso2.nome}");
 
-            string opcao, ataque, defesa;
+            string opcao = "", ataque, defesa;
+            int personagem1 = 0;
+            int personagem2 = 0;
             do
             {
+                if (personagem1 > personagem2)
+                {
+                    Console.WriteLine("Selecione qual personagem você quer jogar:");
+                    Console.WriteLine($"2 - {perso2.nome} vida = {perso2.ExibirVida()}");
+                    Console.WriteLine($"0 - Desistir");
+                    opcao = Console.ReadLine();
+                }
+                else if (personagem1 < personagem2)
+                {
+                    Console.WriteLine("Selecione qual personagem você quer jogar:");
+                    Console.WriteLine($"1 - {perso1.nome} vida = {perso1.ExibirVida()}");
+                    Console.WriteLine($"0 - Desistir");
+                    opcao = Console.ReadLine();
+                }
+                else if (personagem1 == personagem2)
+                {
+                    Console.WriteLine("Selecione qual personagem você quer jogar:");
+                    Console.WriteLine($"1 - {perso1.nome} vida = {perso1.ExibirVida()}");
+                    Console.WriteLine($"2 - {perso2.nome} vida = {perso2.ExibirVida()}");
+                    Console.WriteLine($"0 - Desistir");
+                    opcao = Console.ReadLine();
+                }
 
-                Console.WriteLine("Selecione qual personagem você quer jogar:");
-                Console.WriteLine($"1 - {perso1.nome} vida = {perso1.ExibirVida()}");
-                Console.WriteLine($"2 - {perso2.nome} vida = {perso2.ExibirVida()}");
-                Console.WriteLine($"0 - Desistir");
-                opcao = Console.ReadLine();
+
+
                 switch (opcao)
                 {
                     case "1":
+                    personagem1++;
                         //Atacar personagem 2
                         Console.WriteLine("Selecione o ataque");
                         Console.WriteLine("1 - Soco Alto");
@@ -78,7 +100,12 @@ namespace CSHARP_POO
                             Thread.Sleep(3000);
                         }
                         break;
+
+                    // montar uma variavel para cada personagem, a cada ciclo é somada +1, na variavel de cada personagem,
+                    // condição - se personagem1 > personagem2 = personagem1 joga || caso contrario fazer o contrario
+
                     case "2":
+                    personagem2++;
                         //Atacar personagem 1
                         Console.WriteLine("Selecione o ataque");
                         Console.WriteLine("1 - Soco Alto");
@@ -117,6 +144,11 @@ namespace CSHARP_POO
                             Thread.Sleep(3000);
                         }
                         break;
+
+                    case "0":
+                        Console.WriteLine($"Covarde!");
+                        break;
+
                     default:
                         Console.WriteLine("Opção inválida");
                         break;
@@ -134,7 +166,8 @@ namespace CSHARP_POO
                 }
                 else
                 {
-                    Console.WriteLine("Preparece para o proximo ROUND");
+                    Console.WriteLine("Preparece para o proximo ROUND");;
+                    
                     Thread.Sleep(2000);
                 }
 
@@ -143,3 +176,4 @@ namespace CSHARP_POO
         }//fim Main
     }
 }
+
