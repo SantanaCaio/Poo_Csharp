@@ -1,0 +1,16 @@
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\bin\Debug\net5.0\c05 - CHARP_POO.exe
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\bin\Debug\net5.0\c05 - CHARP_POO.deps.json
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\bin\Debug\net5.0\c05 - CHARP_POO.runtimeconfig.json
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\bin\Debug\net5.0\c05 - CHARP_POO.runtimeconfig.dev.json
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\bin\Debug\net5.0\c05 - CHARP_POO.dll
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\bin\Debug\net5.0\ref\c05 - CHARP_POO.dll
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\bin\Debug\net5.0\c05 - CHARP_POO.pdb
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\obj\Debug\net5.0\c05 - CHARP_POO.csproj.AssemblyReference.cache
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\obj\Debug\net5.0\c05 - CHARP_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\obj\Debug\net5.0\c05 - CHARP_POO.AssemblyInfoInputs.cache
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\obj\Debug\net5.0\c05 - CHARP_POO.AssemblyInfo.cs
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\obj\Debug\net5.0\c05 - CHARP_POO.csproj.CoreCompileInputs.cache
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\obj\Debug\net5.0\c05 - CHARP_POO.dll
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\obj\Debug\net5.0\ref\c05 - CHARP_POO.dll
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\obj\Debug\net5.0\c05 - CHARP_POO.pdb
+C:\Users\dev\Documents\Caio\C# - POO\c05 - CHARP_POO\obj\Debug\net5.0\c05 - CHARP_POO.genruntimeconfig.cache
