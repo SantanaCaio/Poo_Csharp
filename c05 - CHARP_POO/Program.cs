@@ -50,6 +50,15 @@ namespace c05___CHARP_POO
                         listLogin.Add(loginController.CadastrarUsusario());
                         break;
 
+                    case "4":
+                        //Pesquisa chassi
+                        Console.WriteLine($"Digite o chassi do veiculo");
+                        string chassiPesquisado = Console.ReadLine();
+                        Veiculo veiculoPesquisado = VeiculoController.BuscarVeiculo(chassiPesquisado, listaVeiculo);
+                        Console.WriteLine($"Veiculo retornado {veiculoPesquisado.Modelo}");
+                        
+                        break;
+
                     default:
                         Console.WriteLine($"opção invalida, digite novamente!");
 
