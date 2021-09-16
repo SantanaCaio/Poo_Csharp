@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using c05___CHARP_POO.Controller;
-
+using c05___CHARP_POO.Models;
 
 namespace c05___CHARP_POO
 {
@@ -8,8 +9,10 @@ namespace c05___CHARP_POO
     {
         static void Main(string[] args)
         {
+            VeiculoController VeiculoController = new VeiculoController();
+            List<Veiculo> listaVeiculo = new List<Veiculo>();
+
             string opcao;
-                        VeiculoController VeiculoController  = new VeiculoController();
             do
             {
                 Console.WriteLine($"[ 1 ] - CADASTRAR VEICULOS");
@@ -21,18 +24,19 @@ namespace c05___CHARP_POO
                 {
                     case "1":
                         //cadastrar
-                        VeiculoController.CadastrarVeiculo();
+                        listaVeiculo.Add(VeiculoController.CadastrarVeiculo());
+
                         break;
 
                     case "2":
                         //Listar
-                        VeiculoController.ListarVeiculo();
+                        VeiculoController.ListarVeiculo(listaVeiculo);
                         break;
 
                     case "0":
                         //Sair
                         Console.WriteLine($"Obrigado por utilizar o nosso sistema.");
-                        
+
                         break;
 
                     default:

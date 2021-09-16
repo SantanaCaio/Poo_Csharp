@@ -43,8 +43,7 @@ namespace _04___CSHARP_POO
 
             listaDePessoas.Add(new Pessoa(n, s, i));
 
-            ExibirPessoas(listaDePessoas);
-
+  
         }
     }
 }

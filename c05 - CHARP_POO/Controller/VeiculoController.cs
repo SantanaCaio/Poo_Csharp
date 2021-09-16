@@ -6,9 +6,9 @@ namespace c05___CHARP_POO.Controller
 {
     public class VeiculoController
     {
-        public List<veiculo> listaVeiculo = new List<veiculo>();
-        public void CadastrarVeiculo()
+        public Veiculo CadastrarVeiculo()
         {
+
             Console.WriteLine($"Digite o tipo do Veiculo");
             string tipo = Console.ReadLine();
 
@@ -21,16 +21,20 @@ namespace c05___CHARP_POO.Controller
             Console.WriteLine($"Digite o ano do Veiculo");
             int ano = int.Parse(Console.ReadLine());
 
-            veiculo veiculo = new veiculo(tipo, marca, modelo, ano);
+            Veiculo veiculo = new Veiculo(tipo, marca, modelo, ano);
 
-            listaVeiculo.Add(veiculo);   
+            return veiculo; 
         }
 
-        public void ListarVeiculo(){
+        public void ListarVeiculo(List<Veiculo> listaVeiculo){
             foreach (var item in listaVeiculo)
             {
-                Console.WriteLine($"{item.Modelo} {item.Marca} {item.Tipo} {item.Ano}");   
+                Console.WriteLine($" Modelo : {item.Modelo} \n Marca : {item.Marca} \n Tipo : {item.Tipo} \n Ano :{item.Ano}");   
             }
         }
+
     }
 }
+
+// cadastro de usuarios
+
