@@ -10,13 +10,20 @@ namespace c05___CHARP_POO
         static void Main(string[] args)
         {
             VeiculoController VeiculoController = new VeiculoController();
+            LoginController loginController = new LoginController();
+
             List<Veiculo> listaVeiculo = new List<Veiculo>();
+            List<Login> listLogin = new List<Login>();
+
 
             string opcao;
+
+
             do
             {
                 Console.WriteLine($"[ 1 ] - CADASTRAR VEICULOS");
                 Console.WriteLine($"[ 2 ] - LISTAR VEICULOS");
+                Console.WriteLine($"[ 3 ] - CADASTRAR USUÁRIO");
                 Console.WriteLine($"\n[ 0 ] - SAIR");
                 opcao = Console.ReadLine();
 
@@ -38,6 +45,10 @@ namespace c05___CHARP_POO
                         Console.WriteLine($"Obrigado por utilizar o nosso sistema.");
 
                         break;
+                    case "3":
+                        //CADASTRAR USUARIO
+                        listLogin.Add(loginController.CadastrarUsusario());
+                        break;
 
                     default:
                         Console.WriteLine($"opção invalida, digite novamente!");
@@ -48,3 +59,12 @@ namespace c05___CHARP_POO
         }
     }
 }
+
+
+
+// Cadastro de pessoas
+
+// Loggin
+
+
+// ID e Senha
