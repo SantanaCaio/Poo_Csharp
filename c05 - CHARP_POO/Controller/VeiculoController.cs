@@ -18,7 +18,7 @@ namespace c05___CHARP_POO.Controller
             Console.WriteLine($"Digite o marca do Veiculo");
             string marca = Console.ReadLine();
 
-            Console.WriteLine($"Digite o numero do chassi");
+            Console.WriteLine($"Digite o ano do veiculo");
             int ano = int.Parse(Console.ReadLine());
 
             Console.WriteLine($"Digite o numero do chassi");
