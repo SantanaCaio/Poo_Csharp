@@ -24,6 +24,8 @@ namespace c05___CHARP_POO
                 Console.WriteLine($"[ 1 ] - CADASTRAR VEICULOS");
                 Console.WriteLine($"[ 2 ] - LISTAR VEICULOS");
                 Console.WriteLine($"[ 3 ] - CADASTRAR USUÁRIO");
+                Console.WriteLine($"[ 4 ] - CONSULTAR VEICULO");
+                Console.WriteLine($"[ 5 ] - REMOVER VEICULO");
                 Console.WriteLine($"\n[ 0 ] - SAIR");
                 opcao = Console.ReadLine();
 
@@ -64,6 +66,13 @@ namespace c05___CHARP_POO
                         {
                             Console.WriteLine($"Veiculo retornado {veiculoPesquisado.Modelo}");
                         }
+
+                        break;
+
+                    case "5":
+                        // Remover veiculo
+                        Console.WriteLine($"Digite o chassi do veiculo");
+                        string chassiDaFotografia = Console.ReadLine();
 
                         break;
 
