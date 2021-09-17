@@ -8,7 +8,7 @@ namespace c05___CHARP_POO.Models
         public Login(string email, string senha)
         {
             Email = email;
-            Senha = Senha;
+            Senha = senha;
         }
     }
 }

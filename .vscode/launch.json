@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/c05 - CHARP_POO/bin/Debug/net5.0/c05 - CHARP_POO.dll",
             "args": [],
             "cwd": "${workspaceFolder}/c05 - CHARP_POO",
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {

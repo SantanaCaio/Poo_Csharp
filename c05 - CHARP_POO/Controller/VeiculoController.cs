@@ -44,6 +44,16 @@ namespace c05___CHARP_POO.Controller
             Veiculo veiculoRetornado = lista.Find(Veiculo => Veiculo.Chassi == chassiPesquisado);
             return veiculoRetornado;
         }
+
+
+
+
+        
+        public void RemoverVeiculo(string chassiPesquisado, List<Veiculo> lista)
+        {
+            Veiculo removerVeiculo = lista.Find(Veiculo => Veiculo.Chassi == chassiPesquisado);
+            
+        }
     }
 }
 
