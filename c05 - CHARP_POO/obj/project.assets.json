@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\c05 - CHARP_POO\\c05 - CHARP_POO.csproj",
+      "projectUniqueName": "C:\\Users\\dev\\documents\\caio\\Poo_Csharp\\c05 - CHARP_POO\\c05 - CHARP_POO.csproj",
       "projectName": "c05 - CHARP_POO",
-      "projectPath": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\c05 - CHARP_POO\\c05 - CHARP_POO.csproj",
+      "projectPath": "C:\\Users\\dev\\documents\\caio\\Poo_Csharp\\c05 - CHARP_POO\\c05 - CHARP_POO.csproj",
       "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\c05 - CHARP_POO\\obj\\",
+      "outputPath": "C:\\Users\\dev\\documents\\caio\\Poo_Csharp\\c05 - CHARP_POO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

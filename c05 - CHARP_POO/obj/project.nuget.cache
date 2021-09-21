@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "VEGWPT99FkCx/4cOglrUHbffFDRVlTNsiSaUTR0dHGxjLJES8pGh33/Im+j3bqu0KL5W4LCpcJDTGM8TWjZ24Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\c05 - charp_poo\\c05 - CHARP_POO.csproj",
+=======
+  "dgSpecHash": "7a/q5SqCODCmWWSXg/EZfBcj6ssOaRiGuaoDbvjdJuIzmmM6V70zYB/34m6TDFrR2+oVbaQxsicZ9BqXMJiA+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dev\\Documents\\caio\\Poo_Csharp\\c05 - CHARP_POO\\c05 - CHARP_POO.csproj",
+>>>>>>> 4b9dfc89beeeccc9a05102b98f1e08e9e5470758
   "expectedPackageFiles": [],
   "logs": []
 }
