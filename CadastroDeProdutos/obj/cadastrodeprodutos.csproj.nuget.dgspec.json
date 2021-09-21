@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\c05 - charp_poo\\c05 - CHARP_POO.csproj": {}
+    "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\CadastroDeProdutos\\cadastrodeprodutos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\c05 - charp_poo\\c05 - CHARP_POO.csproj": {
+    "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\CadastroDeProdutos\\cadastrodeprodutos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\c05 - charp_poo\\c05 - CHARP_POO.csproj",
-        "projectName": "c05 - CHARP_POO",
-        "projectPath": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\c05 - charp_poo\\c05 - CHARP_POO.csproj",
+        "projectUniqueName": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\CadastroDeProdutos\\cadastrodeprodutos.csproj",
+        "projectName": "cadastrodeprodutos",
+        "projectPath": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\CadastroDeProdutos\\cadastrodeprodutos.csproj",
         "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\c05 - charp_poo\\obj\\",
+        "outputPath": "C:\\Users\\dev\\Documents\\Caio\\C# - POO\\CadastroDeProdutos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
